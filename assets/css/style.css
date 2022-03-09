@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+p {
+  font-size: 25px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -74,7 +78,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #384046;
+  color: #00455d; 
+  /* 384046 */
 }
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #384046;
@@ -346,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -408,7 +413,7 @@ section {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -466,7 +471,7 @@ section {
 .what-we-do .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 30px;
 }
 .what-we-do .icon-box h4 a {
   color: #384046;
@@ -474,7 +479,7 @@ section {
 }
 .what-we-do .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 0;
 }
 .what-we-do .icon-box:hover {
@@ -493,7 +498,7 @@ section {
 }
 .about h3 {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 40px;
 }
 .about ul {
   list-style: none;
@@ -1116,7 +1121,7 @@ section {
   background: #f7fbfe;
 }
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  /* padding: 60px 0 30px 0; */
   background: #fff;
 }
 #footer .footer-top .footer-contact {
@@ -1269,14 +1274,31 @@ section {
 }
 
 
+.texlimp__bottom-logo {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.copyrightt {
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.last_space {
+  display: flex;
+  justify-content: space-between;
+  max-height: 40px;
+}
+
+
 
 .row {
   justify-content: space-between;
 }
 
+ /* VIDEO */
 .sizev {
-  max-width: 700px;
-  max-height: 500px;
+  max-width: 635px;
   align-items:center;
 }
 
@@ -1288,4 +1310,18 @@ section {
 .video__wrap {
   display: flex;
   justify-content: center;
+
+  margin-top: 40px;
+}
+
+/* IMG */
+.img__wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.sizei {
+  max-width: 700px;
+  max-height: 500px;
+  align-items:center;
 }
