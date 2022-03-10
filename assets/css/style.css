@@ -1331,3 +1331,65 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 768px) {
+
+
+  
+/* .texlimp__bottom-logo {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.copyrightt {
+  margin-right: 100px;
+  margin-top: 20px;
+} */
+
+.last_space {
+  display: flex;
+  justify-content: space-between;
+  max-height: 40px;
+}
+
+
+
+.row {
+  justify-content: space-between;
+}
+
+ /* VIDEO */
+.sizev {
+  max-width: 100%;
+  align-items:center;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+} 
+
+.video__wrap {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 40px;
+}
+
+/* IMG */
+.img__wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.sizei {
+  max-width: 100%;
+  align-items:center;
+}
+
+.sliderSize {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
