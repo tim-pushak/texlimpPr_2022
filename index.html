@@ -26,6 +26,12 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <style>
+  .mySlides {display:none;}
+  </style>
+
   <!-- =======================================================
   * Template Name: Lumia - v4.7.0
   * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
@@ -139,7 +145,73 @@
 
         </div>
 
+     
+
       </div>
+
+     
+      
+      <div class=" sliderSize w3-display-container">
+      
+        <div class="w3-display-container mySlides">
+          <img src="assets/img/slide1.jpeg" style="width:100%">
+          <!-- <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+            French Alps
+          </div> -->
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="assets/img/slide2.jpg" style="width:100%">
+         <!--  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            Northern Lights
+          </div> -->
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="assets/img/slide3.png" style="width:100%">
+         <!--  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+            Beautiful Mountains
+          </div> -->
+        </div>
+        
+        <div class="w3-display-container mySlides">
+          <img src="assets/img/slide4.jpeg" style="width:100%">
+          <!-- <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+            The Rain Forest
+          </div> -->
+        </div>
+        
+       <!--  <div class="w3-display-container mySlides">
+          <img src="assets/img/hero-bg1.jpg" style="width:100%">
+          <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+            Mountains!
+          </div>
+        </div> -->
+        
+        <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+      
+      </div>
+      
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+      </script>
 
       
     </section><!-- End What We Do Section -->
@@ -347,7 +419,7 @@
               </div>
               <!-- <div class="form-group mt-3">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujeto" required>
-              </div> -->
+              </div>  -->
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
               </div>
