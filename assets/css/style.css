@@ -31,6 +31,18 @@ p {
   font-size: 25px;
 }
 
+.ending {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.endingEnd {
+  padding-left: 40px;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -387,11 +399,11 @@ p {
 }
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     margin-bottom: 30px;
   }
@@ -1100,7 +1112,20 @@ section {
   color: #4f5a62;
   content: "/";
 }
+
+.ivan {
+  display: none;
+}
 @media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .vasya {
+    display: none;
+  }
+
+
   .breadcrumbs .d-flex {
     display: block !important;
   }
@@ -1224,7 +1249,7 @@ section {
 }
 #footer .credits {
   padding-top: 5px;
-  font-size: 10px;
+  font-size: 15px;
   color: #444444;
 }
 #footer .social-links a {
@@ -1250,7 +1275,7 @@ section {
 /*FOOTER LOGO*/
 
 #footer {
-  height: 70px;
+  /* height: 70px; */
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -1276,7 +1301,7 @@ section {
 
 .texlimp__bottom-logo {
   margin-left: 100px;
-  margin-top: 50px;
+ /*  margin-top: 50px; */
 }
 
 .copyrightt {
@@ -1344,10 +1369,7 @@ section {
   margin-right: -50px;
 }
 
-.last_space {
-  display: flex;
-  flex-direction: row;
-}
+
 
 
 
