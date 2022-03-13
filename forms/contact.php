@@ -1,21 +1,16 @@
-
-
-
 <?php
   $name = $_POST['name'];
   $visitor_email = $_POST['email'];
   $message = $_POST['message'];
 
-	$email_from = 'test@test.com';
+	$email_subject = "Enviado desde web Texlimp";
 
-	$email_subject = "New Form submission";
-
-	$email_body = "You have received a new message from the user $name.\n".
-                            "Here is the message:\n $message".
+	$email_body = "Has recibido un nuevo mensaje de $name.\n \n \n".
+                            "Mensaje:\n \n $message";
 
   $to = "akilnik52@gmail.com";
 
-  $headers = "From: $email_from \r\n";
+  $headers = "From: $visitor_email \r\n";
 
   $headers .= "Reply-To: $visitor_email \r\n";
 
