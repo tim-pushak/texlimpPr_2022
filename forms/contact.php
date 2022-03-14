@@ -8,7 +8,7 @@
 	$email_body = "Has recibido un nuevo mensaje de $name.\n \n \n".
                             "Mensaje:\n \n $message";
 
-  $to = "akilnik52@gmail.com";
+  $to = "progartt@gmail.com";
 
   $headers = "From: $visitor_email \r\n";
 
